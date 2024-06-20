@@ -1,6 +1,6 @@
 # Generative Adversarial Networks (GANs)
 
-![GANs](https://miro.medium.com/v2/resize:fit:1200/1*Wz5W33-C7vzBsoRq2ir_qg.png)
+![GANs]([https://miro.medium.com/v2/resize:fit:1200/1*Wz5W33-C7vzBsoRq2ir_qg.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhanlab.mit.edu%2Fprojects%2Fgancompression&psig=AOvVaw2z07uRH6P7oS0hbRMIHlzk&ust=1718995439197000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjgs5jr6oYDFQAAAAAdAAAAABAE))
 
 ## Introduction
 
@@ -49,7 +49,7 @@ Here's a simple implementation using TensorFlow/Keras:
 ```python
 import tensorflow as tf
 from tensorflow.keras import layers
-'''
+```
 # Generator model
 def build_generator():
     model = tf.keras.Sequential()
@@ -87,3 +87,4 @@ gan.compile(optimizer='adam', loss='binary_crossentropy')
 generator.summary()
 discriminator.summary()
 gan.summary()
+
