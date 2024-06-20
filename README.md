@@ -49,7 +49,7 @@ Here's a simple implementation using TensorFlow/Keras:
 ```python
 import tensorflow as tf
 from tensorflow.keras import layers
-
+'''
 # Generator model
 def build_generator():
     model = tf.keras.Sequential()
